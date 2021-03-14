@@ -14,6 +14,12 @@ import java.util.List;
  */
 public class VendaServiços extends Vendas{
     private List<Servicos> listaServicos;
+
+    /**
+     *
+     * @param noVenda
+     * @param tipo
+     */
     public VendaServiços(int noVenda, String tipo) {
         super(noVenda, tipo);
         
@@ -22,6 +28,7 @@ public class VendaServiços extends Vendas{
        /**
  *
  * metodo de acesso para ir buscar a lista de serviços
+     * @return 
  */
     public List getListaServicos(){
         return listaServicos;

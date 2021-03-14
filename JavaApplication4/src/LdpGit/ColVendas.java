@@ -27,7 +27,6 @@ public class ColVendas {
     /**
      *
      * @param v
-     * método para adicionar uma venda á lista
      */
     public void addVenda(Vendas v){
         for(Vendas i : listaDeVendas){
