@@ -19,11 +19,17 @@ public class VendaArtigos extends Vendas {
         super(noVenda,tipo);
         listaArtigos = new ArrayList<Artigo>();
     }
-    
+    /**
+ *
+ * metodo de acesso para ir buscar a lista de artigo
+ */
     public List getListaArtigos(){
         return listaArtigos;
     }
-    
+       /**
+ *
+ * metodo que conta o numero de artigos vendidos
+ */
     public int contaVendaArtigo(){
         int countArtigo = 0;
         for(Artigo a : listaArtigos){

@@ -57,7 +57,7 @@ public class ColVendas {
     
     /**
      *
-     * @return
+     * @return retorna a quantigade de Artigos Vendidos
      */
     public int devolveQtdArtigosVendidos(){
             int countArtigos = 0;

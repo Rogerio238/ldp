@@ -19,7 +19,10 @@ public class VendaServiços extends Vendas{
         
         listaServicos = new ArrayList<Servicos>();
     }
-    
+       /**
+ *
+ * metodo de acesso para ir buscar a lista de serviços
+ */
     public List getListaServicos(){
         return listaServicos;
     }
